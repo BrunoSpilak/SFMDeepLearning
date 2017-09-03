@@ -1,0 +1,23 @@
+Name of Quantlet : SFMRecurrentNN
+
+Published in : Statistics of Financial Markets
+
+Description : 'Creates a portfolio of cryptocurrencies based on the recurrent neural network predictions.
+This program train a Jordan and an Elman network after tuning the number of hidden layers and neurons.
+The networks are then used for predictions on which the strategy is based.
+Additionnaly it plots the predictions.'
+
+Keywords : Recurrent neural network, Jordan network, Elman network, cryptocurrencies, Crix, portfolio managment
+
+See also :
+
+Author : SPILAK Bruno
+
+Datafile:
+- Data.csv : 'The complete table with the data in correct format and without any missing values. The table should be use for model training'
+- Data_Format/CompleteData.RData: 'All available data on cryptocurrencies'
+- Data_Format/Other/: 'Different tables with some financial data market'
+- Models/ModelElmanFinal.RData: Elman network used for predictions
+- Models/ModelJordanFinal.RData: Jordan network used for predictions
+
+Submitted : 2017/08/30
